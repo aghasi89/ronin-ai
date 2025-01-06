@@ -2,6 +2,7 @@
   "name": "ronin",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://aghasi89.github.io/ronin-ai/",
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
     "cra-template": "1.2.0",
