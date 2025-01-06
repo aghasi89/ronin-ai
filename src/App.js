@@ -43,6 +43,9 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <section className="flex items-center justify-between">
+      <Spline scene="https://prod.spline.design/RR4SVvy7-L3ltqxx/scene.splinecode" />
+      </section>
       <section className="flex items-center flex-col justify-between mt-[80px] mx-[80px]">
         <div>
           <Button className='px-[60px]'>Get Started</Button>
@@ -54,7 +57,6 @@ function App() {
                 <Text title white className='ml-[20px]'>Ai Tool Kit</Text>
               </BgItem>
             </BgItem>
-
             <Text middle yellow upper className='mt-[40px]'>CREATE UR VERY OWN Ai AGENT IN MINUTES USING OUR TOOL KIT,<br /><br /> </Text>
           </div>
           <div className='w-[55%] text-left mt-[50px]'>
@@ -66,7 +68,9 @@ function App() {
         <div className="flex items-start mt-[80px] flex-row justify-start w-full">
           <BgItem item={BgLearnMore} className='left-[340px] top-[35px] scale-[2]'><Button><Text white default>Learn How</Text></Button></BgItem>
         </div>
-        <div></div>
+        <div>
+        
+        </div>
       </section>
       <section className="flex items-center justify-between">
         <Slide>
