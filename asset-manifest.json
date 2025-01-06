@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ronin-ai/static/css/main.82170b40.css",
-    "main.js": "/ronin-ai/static/js/main.2f90888d.js",
+    "main.js": "/ronin-ai/static/js/main.f3cb21b6.js",
     "static/js/208.50d08a68.chunk.js": "/ronin-ai/static/js/208.50d08a68.chunk.js",
     "static/js/293.61a2101e.chunk.js": "/ronin-ai/static/js/293.61a2101e.chunk.js",
     "static/js/917.5853fd43.chunk.js": "/ronin-ai/static/js/917.5853fd43.chunk.js",
@@ -41,7 +41,7 @@
     "static/media/arrow-down.svg": "/ronin-ai/static/media/arrow-down.6b666ba4899f3de63f3806fb546f93a1.svg",
     "static/media/arrow-next.svg": "/ronin-ai/static/media/arrow-next.649023e0361dadea7050d3f6f2572739.svg",
     "main.82170b40.css.map": "/ronin-ai/static/css/main.82170b40.css.map",
-    "main.2f90888d.js.map": "/ronin-ai/static/js/main.2f90888d.js.map",
+    "main.f3cb21b6.js.map": "/ronin-ai/static/js/main.f3cb21b6.js.map",
     "208.50d08a68.chunk.js.map": "/ronin-ai/static/js/208.50d08a68.chunk.js.map",
     "293.61a2101e.chunk.js.map": "/ronin-ai/static/js/293.61a2101e.chunk.js.map",
     "917.5853fd43.chunk.js.map": "/ronin-ai/static/js/917.5853fd43.chunk.js.map",
@@ -53,6 +53,6 @@
   },
   "entrypoints": [
     "static/css/main.82170b40.css",
-    "static/js/main.2f90888d.js"
+    "static/js/main.f3cb21b6.js"
   ]
 }
