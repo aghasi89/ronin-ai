@@ -23,11 +23,11 @@ const Header = () => {
                         <div className='h-[30px] w-[2px] rotate-[20deg] bg-[#FFFFFF33]'></div>
                         <div><Text white normal>Roadmap</Text></div>
                         <div className='h-[30px] w-[2px] rotate-[20deg] bg-[#FFFFFF33]'></div>
-                        <div><Text white normal>$RONIN AI</Text></div>
+                        <div><a href='https://raydium.io/swap/'  target='_blank'><Text white normal>$RONIN AI</Text></a></div>
                     </div>
                     <div className="flex justify-between items-center gap-[45px]">
-                        <Button><Text black base>Github</Text></Button>
-                        <Button><Text black base>Twitter</Text></Button>
+                        <a href="https://ronin-ai.gitbook.io/ronin-ai" target='_blank'> <Button><Text black base>Github</Text></Button></a>
+                        <a href='https://x.com/roninai_net' target='_blank'><Button><Text black base>Twitter</Text></Button></a>
                     </div>
                 </div>
             </div>

@@ -41,3 +41,11 @@ body{
     transform: rotate(360deg);
   }
 }
+
+section{
+  background-image: url('./assets/images/sectionBg.png');
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: bottom center;
+  padding-bottom:150px ;
+}

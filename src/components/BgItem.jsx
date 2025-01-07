@@ -1,11 +1,12 @@
 import React from 'react';
 
-const BgItem = ({children, item, className,wrapper}) => {
+const BgItem = ({children, item, className,wrapper,over}) => {
    
             return (
                 <div className={`relative ${wrapper}`}>
+                    {!over && <img src={item} className={`absolute ${className}`}/>}
                     {children}
-                    <img src={item} className={`absolute ${className}`}/>
+                    {over && <img src={item} className={`absolute ${className}`}/>}
                 </div>
             );
         }

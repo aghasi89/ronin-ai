@@ -29,16 +29,16 @@ const Slide = ({ children }) => {
         <div className="flex flex-col items-center p-[24px] ">
             <BgItem item={BgFeaturesLt} className='top-0 left-0' >
                 <BgItem item={BgFeaturesRt} className='top-[-10px] right-[-80px]' >
-                    <Text title white upper className='ml-[80px]'>Features</Text>
+                    <Text title white upper className='ml-[90px]'>Features</Text>
                 </BgItem>
             </BgItem>
             <BgItem item={BgFeaturesRb} className='bottom-[-35px] right-[-190px]' >
-            <div className='flex flex-row mt-[50px] ml-[80px] gap-[15px]'>
+            <div className='flex flex-row mt-[50px] ml-[100px] gap-[15px]'>
                 <Text gray default className="mt-[25px] opacity-25">0{currentIndex+1}</Text>
                 <Text big yellow upper className=''>Ai TOOL KIT <br /> MADE EASY </Text>
             </div>
             </BgItem>
-            <div className="w-[400px] min-h-[420px] flex justify-center ml-[80px] mt-[80px] bg-[#FFFFFF33] px-[25px] py-[12px] rounded-[10px] border-[1px] border-[#FFFFFF33]">
+            <div className="w-[400px] min-h-[420px] flex justify-center ml-[100px] mt-[80px] bg-[#FFFFFF33] px-[25px] py-[12px] rounded-[10px] border-[1px] border-[#FFFFFF33]">
                 {slides[currentIndex]}
             </div>
             <BgItem item={BgFeaturesb} className='bottom-[-33px] right-[-141px]' >
