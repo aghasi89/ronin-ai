@@ -21,9 +21,10 @@ const Header = () => {
         <div className="flex items-center justify-between w-full gap-[10px] pr-[23px]  skew-x-[20deg]">
           <div className="flex justify-between items-center py-4 px-8 gap-[25px]">
             <div>
-              <Text white normal className="cursor-pointer">
+              <a href="./dashboard"><Text white normal className="cursor-pointer">
                 Dashboard
               </Text>
+              </a>
             </div>
             <div className="h-[30px] w-[2px] rotate-[20deg] bg-[#FFFFFF33]"></div>
             <div>

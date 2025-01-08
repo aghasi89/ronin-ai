@@ -50,10 +50,19 @@ import FaqRb from "./assets/bgs/faq-r-b.svg";
 //videos
 
 import HeadVideo from "./assets/videos/head.mp4";
-import { useRef } from "react";
+import { use, useRef } from "react";
+import Dashboard from "./views/Dashboard";
 
 function App() {
   const sliderRef = useRef(null);
+  if(window.location.pathname.includes('dashboard')) {
+    if(window.innerWidth > 1000) {
+    return <Dashboard/>
+  }else{
+    alert('Unavailable on Mobile, switch to PC to access dashboard')
+    window.location.pathname = 'ronin-ai'
+  }
+  }
   return (
     <div className="App">
       <Header />
