@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ronin-ai/static/css/main.2cd558c8.css",
-    "main.js": "/ronin-ai/static/js/main.0bc92985.js",
+    "main.css": "/ronin-ai/static/css/main.0083b60b.css",
+    "main.js": "/ronin-ai/static/js/main.6be04d57.js",
     "static/js/208.50d08a68.chunk.js": "/ronin-ai/static/js/208.50d08a68.chunk.js",
     "static/js/293.61a2101e.chunk.js": "/ronin-ai/static/js/293.61a2101e.chunk.js",
     "static/js/917.5853fd43.chunk.js": "/ronin-ai/static/js/917.5853fd43.chunk.js",
@@ -11,12 +11,13 @@
     "static/js/160.5f13905f.chunk.js": "/ronin-ai/static/js/160.5f13905f.chunk.js",
     "static/js/23.f0c91910.chunk.js": "/ronin-ai/static/js/23.f0c91910.chunk.js",
     "static/media/head.mp4": "/ronin-ai/static/media/head.abcbcbe2a1f07c83deea.mp4",
+    "static/media/home-logo_2.png": "/ronin-ai/static/media/home-logo_2.56916c86dc400b045d2c.png",
     "static/media/head.png": "/ronin-ai/static/media/head.81804ff58ee6b306e32b.png",
     "static/media/ronin.webp": "/ronin-ai/static/media/ronin.915994014bb74e9440fd.webp",
     "static/media/sectionBg.png": "/ronin-ai/static/media/sectionBg.b8fd4bdb430cbb83357a.png",
-    "static/media/chart.png": "/ronin-ai/static/media/chart.81d04f863b56ef35d5dd.png",
+    "static/media/ronin-chat.png": "/ronin-ai/static/media/ronin-chat.5e6a5a05580dd1c2105c.png",
+    "static/media/chart.png": "/ronin-ai/static/media/chart.b004efc578ee5dc36967.png",
     "static/media/coinzilla.png": "/ronin-ai/static/media/coinzilla.d40939ff6e31ab3eb43e.png",
-    "static/media/home-logo.png": "/ronin-ai/static/media/home-logo.b41cffbccd244a1bdfd1.png",
     "static/media/eco-l-b.svg": "/ronin-ai/static/media/eco-l-b.04c78894ef8591777ff9459b47cac215.svg",
     "static/media/eco-r-t.svg": "/ronin-ai/static/media/eco-r-t.6cf5dc1bb9b168bbe2850f79b3555cc1.svg",
     "static/media/ronin-l.svg": "/ronin-ai/static/media/ronin-l.80020c90554644c007d86d7148a95aae.svg",
@@ -28,6 +29,7 @@
     "static/media/faq-l-t.svg": "/ronin-ai/static/media/faq-l-t.0de7485e19e775864c1f75a2757a81d1.svg",
     "static/media/faq-r-t.svg": "/ronin-ai/static/media/faq-r-t.a70eb7842b7b02b91225044c812759c4.svg",
     "static/media/ronin-r.svg": "/ronin-ai/static/media/ronin-r.aed2d0de3c5d11b383a549cd6f6a42bb.svg",
+    "static/media/image.svg": "/ronin-ai/static/media/image.a1a7244b22bda5c9a961015f99c9add3.svg",
     "static/media/faq-l-b.svg": "/ronin-ai/static/media/faq-l-b.03f3b74dad9e86a3600f6f3a42033c2e.svg",
     "static/media/side-b.svg": "/ronin-ai/static/media/side-b.0a39ac6180a4cb72482c42aa5068504f.svg",
     "static/media/partners-l-t.svg": "/ronin-ai/static/media/partners-l-t.d6fd47b17cece2144b5f57c88a6fdef1.svg",
@@ -35,10 +37,14 @@
     "static/media/partners-l-b.svg": "/ronin-ai/static/media/partners-l-b.a9a33b63ae6696fffa243e965cf1a68a.svg",
     "static/media/faq-r-b.svg": "/ronin-ai/static/media/faq-r-b.5017c2d9264b1e74f5c2edc47263c7cd.svg",
     "static/media/features-r-b.svg": "/ronin-ai/static/media/features-r-b.dd5b9c7de5a0914a436c7d72e38da665.svg",
+    "static/media/cloud.svg": "/ronin-ai/static/media/cloud.27e9a8827362ac0a915120732d4a3d21.svg",
+    "static/media/new-chat.svg": "/ronin-ai/static/media/new-chat.19cfa973ce2df0a397a2045ca626bace.svg",
     "static/media/protocal-l-t.svg": "/ronin-ai/static/media/protocal-l-t.ec9f5229526b689a6c3b5f1edc40f77e.svg",
     "static/media/adoption_t_r.svg": "/ronin-ai/static/media/adoption_t_r.fa6406a8b98701e6e53ed1a68bfab202.svg",
     "static/media/arrows-bg.svg": "/ronin-ai/static/media/arrows-bg.297e708b42009cb1f3a51437b318dad7.svg",
+    "static/media/еye.svg": "/ronin-ai/static/media/еye.0783f36a8cf0db5bf2e0e661ea5096ef.svg",
     "static/media/protocol-r-t.svg": "/ronin-ai/static/media/protocol-r-t.bc6966df3b5d4f92c970b99356633446.svg",
+    "static/media/check.svg": "/ronin-ai/static/media/check.1c65aa7cdfc3b499948dc8fe9b290663.svg",
     "static/media/learn-how-r.svg": "/ronin-ai/static/media/learn-how-r.60d3aad9b1a54ca4b98dba73cee71667.svg",
     "static/media/liner-left.svg": "/ronin-ai/static/media/liner-left.1515f30e5e8f57b5f50fc3437ecf1c1d.svg",
     "static/media/liner-right.svg": "/ronin-ai/static/media/liner-right.d3185b4f71b86a0c780f4d7b39e0e188.svg",
@@ -51,8 +57,8 @@
     "static/media/twitter.svg": "/ronin-ai/static/media/twitter.82f9de540df3606eff4974245c1871c5.svg",
     "static/media/arrow-down.svg": "/ronin-ai/static/media/arrow-down.6b666ba4899f3de63f3806fb546f93a1.svg",
     "static/media/arrow-next.svg": "/ronin-ai/static/media/arrow-next.649023e0361dadea7050d3f6f2572739.svg",
-    "main.2cd558c8.css.map": "/ronin-ai/static/css/main.2cd558c8.css.map",
-    "main.0bc92985.js.map": "/ronin-ai/static/js/main.0bc92985.js.map",
+    "main.0083b60b.css.map": "/ronin-ai/static/css/main.0083b60b.css.map",
+    "main.6be04d57.js.map": "/ronin-ai/static/js/main.6be04d57.js.map",
     "208.50d08a68.chunk.js.map": "/ronin-ai/static/js/208.50d08a68.chunk.js.map",
     "293.61a2101e.chunk.js.map": "/ronin-ai/static/js/293.61a2101e.chunk.js.map",
     "917.5853fd43.chunk.js.map": "/ronin-ai/static/js/917.5853fd43.chunk.js.map",
@@ -63,7 +69,7 @@
     "23.f0c91910.chunk.js.map": "/ronin-ai/static/js/23.f0c91910.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2cd558c8.css",
-    "static/js/main.0bc92985.js"
+    "static/css/main.0083b60b.css",
+    "static/js/main.6be04d57.js"
   ]
 }
