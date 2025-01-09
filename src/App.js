@@ -56,9 +56,14 @@ import AIChip from "./assets/videos/ai-chip.mp4";
 
 import { use, useRef } from "react";
 import Dashboard from "./views/Dashboard";
+import Mobile from "./components/Mobile";
 
 function App() {
   const sliderRef = useRef(null);
+
+  if(window.innerWidth < 1000) {
+    return <Mobile/>
+  }
   if(window.location.pathname.includes('dashboard')) {
     if(window.innerWidth > 1000) {
     return <Dashboard/>

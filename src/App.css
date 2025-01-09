@@ -2,9 +2,6 @@
   text-align: center;
   
 }
-body,.root{
-  min-width: 1920px;
-}
 ::-webkit-scrollbar{
   display: none;
 }
