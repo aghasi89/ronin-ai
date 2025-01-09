@@ -50,6 +50,10 @@ import FaqRb from "./assets/bgs/faq-r-b.svg";
 //videos
 
 import HeadVideo from "./assets/videos/head.mp4";
+import Ronin_1 from "./assets/videos/ronin_1.mp4";
+import AIChip from "./assets/videos/ai-chip.mp4";
+
+
 import { use, useRef } from "react";
 import Dashboard from "./views/Dashboard";
 
@@ -71,7 +75,7 @@ function App() {
       </section>
       <section className="flex items-center flex-col justify-between mt-[80px] px-[60px]">
         <div>
-          <Button>Get Started</Button>
+        <a href="./dashboard"><Button>Get Started</Button></a>
         </div>
         <div className="flex  items-start justify-between mt-[30px] ml-[26px]">
           <div className="flex flex-col items-start text-left flex-1">
@@ -159,8 +163,19 @@ function App() {
             </Text>
           </div>
         </Slide>
+        <div className="flex items-start justify-start flex-col gap-[50px] w-[30vw] text-left">
+          <Text big yellow>Empower users</Text>
+          <Text default white>To design, deploy, and monetize their own agents across DeFi, NFTs, and Web3.</Text>
+        </div>
         <div>
-          <Spline scene="https://prod.spline.design/GFoHk3pip-3eWJka/scene.splinecode" />
+          <video
+            src={AIChip}
+            autoPlay
+            loop
+            muted
+            className="w-[30vw]"
+          ></video>
+          {/* <Spline scene="https://prod.spline.design/GFoHk3pip-3eWJka/scene.splinecode" /> */}
         </div>
       </section>
       <section className="flex items-start justify-start flex-col mb-[50px] min-h-[650px] px-[60px]">
@@ -229,7 +244,14 @@ function App() {
                   </BgItem>
                 </div>
                 <div className="w-[30vw] h-[60vw] mt-[180px]">
-                  <Spline scene="https://prod.spline.design/Dz2x7K6qKqv2nP1F/scene.splinecode" />
+                  <video
+                    src={Ronin_1}
+                    autoPlay
+                    loop
+                    muted
+                    className="w-full"
+                  ></video>
+                  {/* <Spline scene="https://prod.spline.design/Dz2x7K6qKqv2nP1F/scene.splinecode" /> */}
                 </div>
               </div>
             </BgItem>
@@ -265,7 +287,7 @@ function App() {
           </section>
         </BgItem>
       </BgItem>
-      <section className="flex items-start justify-start flex-col px-[120px] text-left">
+      <section id="roadmap" className="flex items-start justify-start flex-col px-[120px] pb-[60px] text-left">
         <Text title white upper>
           Adoption
         </Text>
@@ -275,8 +297,8 @@ function App() {
           <Text yellow>within the next 2 years</Text>
         </Text>
         <BgItem item={AdoptionTr} className="top-[50px] right-[30px]">
-          <div className="w-full mt-[60px]">
-            <img src={ChartImage} alt="chart" className="w-full" />
+          <div className="w-full mt-[100px]">
+            <img src={ChartImage} alt="chart" className="w-10/12" />
           </div>
         </BgItem>
       </section>
@@ -345,7 +367,7 @@ function App() {
               <Text title white upper className="ml-[90px]">
                 PARTNERS
               </Text>
-              <div className="overflow-hidden flex items-start justify-start flex-col gap-[50px] mt-[150px] py-[70px] bg-white/5 rounded-[16px] backdrop-blur-md">
+              <div className="overflow-hidden flex items-start justify-start flex-col gap-[50px] mb-[90px] mt-[150px] py-[70px] bg-white/5 rounded-[16px] backdrop-blur-md">
                 <div
                   ref={sliderRef}
                   className="flex items-start justify-start flex-row gap-[80px] animate-run line"
@@ -360,7 +382,7 @@ function App() {
                   <img src={Hyperlab} className="h-[78px]" alt="Hyperlab" />
                 </div>
               </div>
-              <div
+              {/* <div
                 className="gap-[12px] self-center flex items-center justify-center flex-row mt-[135px] px-[52px] py-[15px]"
                 style={{
                   backgroundImage: `url(${arrowBg})`,
@@ -398,7 +420,7 @@ function App() {
                     }}
                   />
                 </div>
-              </div>
+              </div> */}
             </section>
           </BgItem>
         </BgItem>

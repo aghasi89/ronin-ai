@@ -27,7 +27,7 @@ const Dashboard = () => {
     const [selectedConversation, setSelectedConversation] = useState(1);
     const [messages, setMessages] = useState({});
     const [input, setInput] = useState('');
-    const [isModalOpen, setIsModalOpen] = useState(false);
+    const [isModalOpen, setIsModalOpen] = useState(true);
 
     const handleSendMessage = () => {
         setIsModalOpen(true);
@@ -46,7 +46,7 @@ const Dashboard = () => {
     };
 
     const handleModalClose = () => {
-        setIsModalOpen(false);
+        //setIsModalOpen(false);
     };
     return (
         <div className="flex h-screen bg-[#080808]">
@@ -192,7 +192,7 @@ const Dashboard = () => {
                                         <span className='text-white text-[14px] text-left'>Access premium AI services</span>
                                     </div>
                                 </div>
-                                <button onClick={handleModalClose} className='w-[156px] h-[38px] rounded-[15px] border border-[#F1C42E] text-white'>Sign up today!</button>
+                                <a href='https://docs.google.com/forms/d/e/1FAIpQLSd1rPN0-OHe-KMw1sKl3dkFwGUC1ZmbgGeZPD1sPqe8bGCEUA/viewform?usp=send_form' target='_blank'><button className='w-[156px] h-[38px] rounded-[15px] border border-[#F1C42E] text-white'>Sign up today!</button></a>
                             </div>
                         </div>
                     </div>

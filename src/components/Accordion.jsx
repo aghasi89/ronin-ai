@@ -22,7 +22,7 @@ const Accordion = ({ items }) => {
                     </button>
                     {activeIndex === index && (
                         <div className="px-[60px] py-4">
-                            <p className="text-gray-700">{item.content}</p>
+                            <p >{item.content}</p>
                         </div>
                     )}
                 </div>

@@ -9,7 +9,7 @@ const Footer = () => {
                 <Text yellow middle bold>RONIN AI <Text white>AGENT</Text></Text>
                 <div className='flex flex-col gap-[10px] items-start'>
                     <Text white normal upper>Socials</Text>
-                    <div className='flex flex-row gap-[10px]'> <img src={TwitterIcon} /> <Text gray normal> Twitter</Text></div>
+                    <a href='https://x.com/roninai_net' target='_blank'><div className='flex flex-row gap-[10px]'> <img src={TwitterIcon} /> <Text gray normal> Twitter</Text></div></a>
                 </div>
             </div>
             <div className='border-t-[1px] border-[#FFFFFF24] text-right mr-[55px] pt-[60px] mt-[20px]'>
