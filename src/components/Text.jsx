@@ -12,6 +12,7 @@ const styles = {
     lg: `text-lg`,
     normal: `font-normal`,
     small: `text-sm font-normal`,
+    medium: `text-2xl font-medium`,
     middle: `text-3xl font-normal`,
     big:"text-5xl",
     bold:"font-bold",
